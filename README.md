@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Wellness Tracker Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
+[![Recharts](https://img.shields.io/badge/Recharts-FF7300?style=for-the-badge)](https://recharts.org/)
+[![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## Available Scripts
+A modern, visually stunning, and interactive wellness dashboard built with React, TypeScript, Styled Components, and Recharts.
 
-In the project directory, you can run:
+## 🚀 Features
+- **Mood Tracker:** Select a date and assign your mood with expressive emojis. Visual feedback for each day.
+- **Breathing Exercise:** Animated, interactive breathing circle for guided relaxation sessions.
+- **Water Intake:** Track your daily water intake with visual progress and quick stats.
+- **Weekly Overview:** Beautiful bar chart showing your weekly steps progress, best day, and averages.
+- **Health Reminders:** Stay on top of your wellness goals with reminders for sleep, water, steps, and more.
+- **Responsive Design:** Looks great on desktop and mobile.
+- **Neon/Gradient UI:** Modern, health-focused, and visually appealing interface.
 
-### `npm start`
+## 🛠️ Tech Stack
+- **React** (with TypeScript)
+- **Styled Components** for custom, themeable styling
+- **Recharts** for beautiful, animated charts
+- **Material-UI** for some UI elements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🖥️ Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### `npm test`
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Project Structure
+- `src/` — Main source code
+  - `components/` — Reusable UI components (MoodTracker, BreathingExercise, etc)
+  - `graphs.tsx` — Main dashboard layout and logic
+- `public/` — Static assets and the main HTML template
 
-### `npm run build`
+## ✨ Customization
+- Easily change color themes in `App.css` or styled components.
+- Add new metrics, reminders, or charts by extending the dashboard.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🙏 Credits
+- Designed & developed with ❤️ by Lovepreet.
+- Inspired by modern health and productivity dashboards.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📧 Support
+Have questions or feedback? Contact: [lovepreetindora00@gmail.com]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++Connect with me on [LinkedIn](https://www.linkedin.com/in/lovepreet-71591b260)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Live well. Track better.**
