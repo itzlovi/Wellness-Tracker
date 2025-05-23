@@ -34,7 +34,7 @@ A modern, visually stunning, and interactive wellness dashboard built with React
    ```bash
    npm start
    ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+   Open [https://wellness-tracker-by-lovi.netlify.app/](https://wellness-tracker-by-lovi.netlify.app/) in your browser.
 
 3. **Build for production:**
    ```bash
